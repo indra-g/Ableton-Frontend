@@ -1,0 +1,80 @@
+/* Navigation Bar */
+
+.navbar {
+  padding: 0%;
+}
+.nav-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+.container-fluid {
+  height: 80px;
+}
+
+/* Main Section */
+
+.mainimg {
+  padding: 30px 50px 0;
+  height: auto;
+  width: 100%;
+}
+p {
+  text-align: left;
+  font-size: 1.5rem;
+}
+.mainpara {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  padding: 8% 27% 1rem;
+  margin: 0;
+}
+.subpara {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.7rem;
+  letter-spacing: 0.1rem;
+  font-size: large;
+  padding: 0 27% 8%;
+}
+.secondimg {
+  height: auto;
+  width: 80%;
+}
+
+/* Media quiry*/
+
+@media (max-width: 700px) {
+  .mainimg {
+    padding: 0 20px;
+  }
+  .brand {
+    width: 60px;
+    height: 60px;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .mainpara {
+    padding: 8% 50px;
+  }
+  .subpara {
+    padding: 0 50px;
+  }
+  .vidimg {
+    padding-top: 50px;
+  }
+  .mp12 {
+    padding-top: 80px;
+  }
+}
+
+/* Footer Section */
+#footer {
+  background-color: white;
+  padding: 5% 15% 1%;
+  text-align: center;
+}
+h2 {
+  font-size: smaller;
+}
