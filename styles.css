@@ -48,6 +48,9 @@ p {
   .mainimg {
     padding: 0 20px;
   }
+  .secondimg {
+    width: 90%;
+  }
   .brand {
     width: 60px;
     height: 60px;
